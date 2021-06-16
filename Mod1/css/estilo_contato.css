@@ -1,0 +1,52 @@
+#page6 .container {
+    height: 700px;
+    background: url(../images/background_form_small.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 80% ;
+    background-size: cover;
+}
+
+#page6 .container h2{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.form-page6 {
+    position: relative;
+    margin: 0 auto;
+    width: 350px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.form-page6 input, textarea {
+    width: 350px;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    padding: 15px 5px;
+    margin: 2px 0px;
+    resize: none;
+}
+
+.form-page6 textarea {
+    height: 150px;
+}
+
+.form-page6 button {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: #20a59e;
+    border-radius: 5px;
+    margin: 20px 0px;
+    cursor: pointer;
+}

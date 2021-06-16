@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/screen.css">
+        <script type="text/javascript" src="dropdown.js"></script>
+        <title>Athos Intermediações</title>
+    </head>
+
+    <body>
+        <div id="top"><!--Header Start-->
+            <div class="container">
+                <div class="content">
+                    <a id="logo" href="www.athosintermeciacoes.com.br"><img src="./images/athos.png" alt="Logo_Athos"></a>
+                    <ul id="nav">
+                        <li><a id="home" href="_header.html">INÍCIO</a></li>
+                        <li><a id="athos" href="aathos.html">A ATHOS</a></li>
+                        <li><a id="servicos" href="servicos.html">SERVIÇOS</a></li>
+                        <li><a id="blog" href="blog.html">BLOG</a></li>
+                        <li><a id="faq" href="faq.html">FAQ</a></li>
+                        <li><a id="contato" href="contato.html">CONTATO</a></li>
+                    </ul>
+                    <div id="menu-mobile">
+                        <button class="accordion">Menu</button>
+                        <ul class="panel">
+                            <li><a id="home" href="_header.html">INÍCIO</a></li>
+                            <li><a id="athos" href="aathos.html">A ATHOS</a></li>
+                            <li><a id="servicos" href="servicos.html">SERVIÇOS</a></li>
+                            <li><a id="blog" href="blog.html">BLOG</a></li>
+                            <li><a id="faq" href="faq.html">FAQ</a></li>
+                            <li><a id="contato" href="contato.html">CONTATO</a></li>
+                        </ul>
+                    </div>
+                    <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+                        
+                        for (i = 0; i < acc.length; i++) {
+                            acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.maxHeight) {
+                                panel.style.maxHeight = null;
+                            } else {
+                                panel.style.maxHeight = panel.scrollHeight + "px";
+                            } 
+                            });
+                        }
+                    </script>
+                    
+                </div>
+            </div>            
+        </div>  <!--Header End--> 
+
+        <div id="main"> <!--main start-->
+            <div class="container"> 
+
+                <div class="top-main"><!--texto e imagem topo-->
+                    <h1>o banco levou o seu carro?</h1>
+                    <hr>
+                    <p>Resolva sua urgência do jeito certo, sem<br>burocracia e com apoio jurídico o tempo todo.</p>
+                    <div>
+                        <button>quero minha análise gratuita</button>
+                    </div>
+                </div>
+
+                <div class="content">
+                                        
+                    <div class="mid-main">
+                        <img class="image-mid1" width=600 src="images/drawed_car.png" alt="imagem2">
+                        <div class="text-mid1">
+                            <h1>Afinal, quem é a Athos Intermediações?</h1>
+                            <hr>
+                            <p>Somos uma empresa especializada em negociação de dívidas de financiamentode veículos, revisão de contratos e negociação de carros apreendidos.</p>
+                        </div>
+                    </div>
+            
+                    <div class="mid-main">
+                        <img class="image-mid1" width=600 src="images/business-woman-bussiness-man.png" alt="">
+                        <div class="text-mid1">
+                            <h1>Experiência comprovada!</h1>
+                            <hr>
+                            <p>Nosso time jurídico possui anos de experiência em negociação bancária e defesa do consumidor em casos de juros abusivos e excessos cometidos em apreensão de veículos.</p>
+                            <p>Conte conosco para proteger seus direitos e resolver seu problema, de uma vez por todas.</p>
+                        </div>
+                    </div>
+ 
+                </div>
+
+                <div class="mid2-main">
+                    <div class="content">
+                        <img class="image-mid2" width=600 src="images/motorcycle_car.png" alt="">
+                        <div class="text-mid2">
+                            <h1><span>Com a Athos,</span> seu veículo pode voltar a ser seu.</h1>
+                            <hr>
+                            <p>Nosso time jurídico possui anos de experiência em negociação bancária e defesa do consumidor em casos de juros abusivos e excessos cometidos em apreensão de veículos.</p>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="form-main"><!--Form-->
+                    <div class="content">
+                        <div class="text-form">
+                            <h1>Fale com a Athos</h1>
+                            <hr>
+                            <p>deixe seu contato e vamos lhe ajudar.</p>
+                        </div>
+    
+                        <form class="input-form">
+                            <div>
+                                <input type="text" name="nome" id="nomelead" autocomplete="off" placeholder="Seu nome e sobrenome">
+                            </div>
+                            <div>
+                                <input type="email" name="email" id="email" autocomplete="off" placeholder="Seu e-mail">
+                            </div>
+                            <div>
+                                <input type="tel" name="telefone" id="telefone" autocomplete="off" placeholder="Um telefone de contato (com DDD)">
+                            </div>
+                            <div class="btn-form">
+                                <button class="submit" type="submit">solicitar análise</button>
+                            </div>
+                        </form> 
+                    </div>                                    
+                </div>
+            </div>
+        </div><!--main End-->
+
+        <div id="footer"> <!--Footer start-->
+            <div class="container">
+                <div class="content">
+                    <ul id="socialmedia">
+                        <li><a><img src="./images/icons/facebook-f-brands.png" alt="logo facebook"></a></li>
+                        <li><a><img src="./images/icons/instagram-brands.png" alt="logo instagram"></a></li>
+                        <li><a><img src="./images/icons/whatsapp-brands.png" alt="logo whatsapp"></a></li>
+                        <li><a><img src="./images/icons/youtube-brands.png" alt="logo youtube"></a></li>
+                        <li><a><img src="./images/icons/linkedin-in-brands.png" alt="logo linkedin"></a></li>
+                    </ul>
+                    <ul id="footlinksleft">
+                        <li><a>Fique em dia</a></li>
+                        <li><a>Dúvidas | FAQ</a></li>
+                        <li><a>Fale com a gente</a></li>
+                        <li><a>Termos de uso</a></li>
+                        <li><a>Política de privacidade</a></li>
+                    </ul>
+                    <ul id="footlinksright">
+                        <li><a>Ouvidoria</a></li>
+                        <li><a>Imprensa</a></li>
+                        <li><a>Segurança</a></li>
+                        <li><a>Canal de Denúncias</a></li>
+                        <li><a>Trabalhe com a gente</a></li>
+                    </ul>
+                    <p>Copyright &COPY; 2020 Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div><!--Footer End-->
+    
+    </body>
+</html>

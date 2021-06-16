@@ -1,0 +1,24 @@
+#servicos .container h1 {
+    background-image: url(../images/faixaathos.jpg);
+    background-size: 100% 100%;
+    padding: 30px 0px;
+    text-align: center;
+    color: #e2e2e2;
+}
+
+#servicos .imagens-servicos {
+    display: flex;
+    width: 820px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+#servicos .content img {
+    width: 170px;
+    height: 90%;
+    margin: 15px; 
+}

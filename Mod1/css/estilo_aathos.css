@@ -1,0 +1,73 @@
+.image-effect1, .image-effect2{
+    width:280px;
+    height: 210px;
+}
+
+.image-effect1 {
+    border-radius: 135px 20px 20px 135px;
+    
+}
+
+.image-effect2 {
+    border-radius: 20px 135px 135px 20px;
+}
+
+#page2 .container h1 {
+    background-image: url(../images/faixaathos.jpg);
+    background-size: 100% 100%;
+    padding: 30px 0px;
+    text-align: center;
+    color: #e2e2e2;
+}
+
+#page2 .content hr {
+    border: 1px solid #606060;
+}
+
+.text1-page2, .text2-page2 {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 30px auto;
+}
+
+.text1-page2 {
+    flex-direction: row;
+}
+
+.text2-page2 {
+    flex-direction:row-reverse;
+}
+
+.text1-page2 p, .text2-page2 p {
+    width: 280px;
+    height: 120px;
+    margin-top:35px;
+}
+
+#text-wrap-page2 {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text3-page2,.text4-page2,.text5-page2 {
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius:20px 135px 135px 20px ;
+}
+
+.text3-page2 {
+    width: 440px;
+    margin:50px 0px 50px 0px ;
+}
+
+.text4-page2 {
+    width: 410px;
+    margin-bottom:70px; 
+}
+
+.text5-page2 {
+    width: 220px;
+    margin:0px 50px 70px 50px ;
+}

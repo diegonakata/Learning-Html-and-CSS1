@@ -1,0 +1,41 @@
+#page4 .container h1 {
+    background-image: url(../images/faixaathos.jpg);
+    background-size: 100% 100%;
+    padding: 30px 0px;
+    text-align: center;
+    color: #e2e2e2;
+}
+
+#page4 .column1 {
+    position: relative;
+    float: left;  
+}
+
+#page4 .column2 {
+    position: relative;
+    float: left;
+    margin-left:50px ;
+}
+
+#page4 .column1 div, .column2 div {
+    background-color: #f2f2f2;
+    width: 400px;
+    margin: 40px auto 150px auto;
+}
+
+#page4 .column1 h2, p, .column2 h2, p {
+    margin: 20px;
+}
+
+#page4 .column1 img, .column2 img {
+    width: 100%;
+    height: 170px;
+}
+
+#page4 .column1 button, .column2 button {
+    margin:20px;
+    border: 1px solid #b99913;
+    position: absolute;
+    right: 0;
+    
+}

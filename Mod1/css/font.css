@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Rockwell-Bold';
+    src: url(../fonts/Rockwell-Bold.ttf);
+}
+
+body {
+    font-family: 'OpenSans-Bold', 'OpenSans-ExtraBold', 'OpenSans-Light', 'OpenSans-Regular', 'Poppins-Bold', 'Poppins-Medium', 'Roboto-Black', 'Roboto-Bold', 'Roboto-Light', 'Roboto-Regular', 'Rockwell-Bold';
+    color: #686868;
+}
+
+/*Index*/
+
+.top-main {
+    font-family: 'Rockwell-Bold';
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.top-main p, button {
+    font-size: 20px;
+    font-family: 'Poppins-Medium';
+    line-height: 25px;
+    margin: 25px auto;
+}
+
+.text-mid1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto-Regular';
+}
+
+.text-mid1 p {
+    font-size: 15px;
+    font-family: 'OpenSans-bold';
+    text-align:justify;
+    margin-left: 0;
+}
+
+.text-mid2 {
+    font-size: 40px;
+    font-family: 'Roboto-Regular';
+}    
+
+.text-mid2 span{
+    font-size: 40px;
+    font-family:'Roboto-Bold';
+}
+
+.text-mid2 p {
+    font-size: 15px;
+    font-family: 'OpenSans-Bold';
+    text-align: justify;
+    margin-left: 0;
+}
+
+.text-form {
+    color: #fff;
+}
+
+.text-form h1 {
+    font-size: 30px;
+    font-family: 'Roboto-Bold';
+}
+
+.text-form p {
+    font-size: 15px;
+    font-family: 'OpenSans-Light';
+    text-transform: uppercase;
+    margin-left: 0;
+}
+
+.btn-form button {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#footlinksleft a, #footlinksright a {
+    font-size: 12px;
+    font-family: 'Roboto-Bold';
+    color: #686868;
+    cursor: pointer;
+}
+
+#footlinksleft a:hover, #footlinksright a:hover {
+    color:black;
+}
+
+#footer .content p {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#footer .content {
+    background-position: right bottom;
+    margin-bottom: 30px;
+}
+
+#page2 .content p {
+    font-family: 'Roboto-Regular';
+    color: #666;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.text1-page2 p span {
+    font-family:'Roboto-Bold';
+}
+
+.text1-page2 p {
+    text-align: right;
+}
+
+.text2-page2 p {
+    text-align: left;
+}
+
+#text-wrap-page2 p {
+    font-size: 15px;
+    color:#333
+}
+
+#text-wrap-page2 span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#page3 h2 {
+    font-size: 30px;
+    font-family:'Rockwell-Bold';
+    color: #5b544f;
+}
+
+#page3 p {
+    font-family: 'Poppins-Medium';
+    font-size: 20px;
+    color: #333;
+}
+
+#page4 button {
+    font-size:15px ;
+    font-family: 'Roboto-Bold';
+    color: #515151;
+
+}
+
+#page2 h1, #page3 h1, #page4 h1, #page5 h1, #servicos h1, #responsabilidade-social h1 {
+    font-size: 35px;
+    font-family:'Rockwell-Bold';
+    text-transform: uppercase;
+}
+
+#page3 h2, button {
+    text-transform: uppercase;
+}
+
+#page5 h2 {
+    font-size: 35px;
+    font-family:'Rockwell-Bold';
+    color:#b99913;
+    padding: 15px 0px;
+}
+
+#page5 p {
+    margin-left: 0;
+    line-height: 20px;
+    color: #333;
+}
+
+#page5 .mais-noticias p {
+    margin-left: 20px;
+}
+
+#page5 .mais-noticias h2, h3 {
+    font-size: 30px;
+    font-family: 'OpenSans-Light';
+    text-transform: uppercase;
+    color: #000;
+    text-align:left;
+    margin: 20px 0px 0px 20px;
+}
+
+#page5 .mais-noticias h2 {
+    text-align: center;
+}
+
+#page5 .mais-noticias h3 {
+    font-size: 20px;
+}
+
+#page5 .mais-noticias button {
+    font-size: 15px;
+    right: 30px;
+    bottom: 0;
+}
+
+#page6 .container h2 {
+    font-family: 'Rockwell-Bold';
+    font-size: 25px;
+}
+
+#responsabilidade-social h2 {
+    text-transform: uppercase;
+}
+
+
+
