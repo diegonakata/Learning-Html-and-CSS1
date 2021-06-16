@@ -48,28 +48,30 @@
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
-        margin: 0;
+        border-radius: 5px;
     }  
     
     .panel li a {
         color: #686868;
         text-decoration: none;
+        padding: 2px 0px;
     }
 
-    .panel li a:hover {
+    #menu-mobile li a:hover {
         color: #000;
     }
     
     #menu-mobile .accordion:after {
-    content:'\2261'; 
+        content:'\2261'; 
         font-size: 13px;
         color: #777;
         float: right;
         margin-left: 5px;
+        outline: none;
     }
       
     #menu-mobile .active:after {
-    content: '\2261';
+        content: '\2261';
     }
     
 
